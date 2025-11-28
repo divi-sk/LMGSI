@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+caption {
+    font-size: 25px;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: lightgreen;
+    width: 100px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
