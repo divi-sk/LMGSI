@@ -1,79 +1,61 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html>
 <head>
-    <title>Horari</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Horari Curs 24-25</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <h1>Horari</h1>
-    <table>
-        <caption>Curs 24-25</caption>
 
-        <thead>
-            <tr>
-                <th> </th>
-                <th>Dilluns</th>
-                <th>Dimarts</th>
-                <th>Dimecres</th>
-                <th>Dijous</th>
-                <th>Divendres</th>
-            </tr>
-        </thead>
+<h1>Horari</h1>
+<table>
+    <caption>Curs 24-25</caption>
+    <thead>
+        <tr>
+            <th></th> <th>dilluns</th>
+            <th>dimarts</th>
+            <th>dimecres</th>
+            <th>dijous</th>
+            <th>divendres</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="hores">8:00 - 9:00</td>
+            <td class="LMSGI" rowspan="2">LMSGI</td> 
+            <td class="BD" rowspan="2">BD</td>
+            <td class="PED" rowspan="2">P+ED</td>
+            <td class="SI" rowspan="2">SI</td>
+            <td class="BD" rowspan="2">BD</td>
+        </tr>
+        <tr>
+            <td class="hores">8:00 - 9:00</td>
+        </tr>
+        <tr>
+            <td class="hores">10:00 - 11:00</td>
+            <td class="PED">P+ED</td>
+            <td class="TUT">TUT</td>
+            <td class="AN">AN</td>
+            <td class="PED">P+ED</td>
+            <td class="PED">P+ED</td>
+        </tr>
+        <tr>
+            <td colspan="6" id="descans">Descans</td> 
+        </tr>
+        <tr>
+            <td class="hores">11:30 - 12:30</td> 
+            <td class="PED">P+ED</td>
+            <td class="DIW" rowspan="2">DIW</td> 
+            <td class="IPOI" rowspan="2">IPO I</td> 
+            <td class="PED" rowspan="2">P+ED</td> 
+            <td class="PED">P+ED</td>
+        </tr>
+        <tr>
+            <td class="hores">12:30 - 13:30</td> 
+            <td class="IPOI">IPO I</td> 
+            <td class="SI">SI</td>
+        </tr>
+    </tbody>
+</table>
 
-        <tbody>
-            <tr>
-                <td>8:00 - 9:00</td>
-                <td>LMSGI</td>
-                <td>BD</td>
-                <td>P+ED</td>
-                <td>SI</td>
-                <td>BD</td>     
-            </tr>
-            <tr>
-                <td>9:00 - 10:00</td>
-                <td>LMSGI</td>
-                <td>BD</td>
-                <td>P+ED</td>
-                <td>SI</td>
-                <td>BD</td>
-            </tr>
-
-            <tr>
-                <td>10:00 - 11:00</td>
-                <td>P+ED</td>
-                <td>TUT</td>
-                <td>AN</td>
-                <td>P+ED</td>
-                <td>P+ED</td>
-            </tr>
-
-            <tr>
-                <td>Descans</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-
-           <tr>
-                <td>11:30 - 12:30</td>
-                <td>P+ED</td>
-                <td>DIW</td>
-                <td>IPOI</td>
-                <td>P+ED</td>
-                <td>P+ED</td>
-            </tr>
-
-            <tr>
-                <td>12:30 - 13:30</td>
-                <td>DIW</td>
-                <td>IPOI</td>
-                <td>IPOI</td>
-                <td>P+ED</td>
-                <td>SI</td>
-            </tr>
-        </tbody>
-    </table>
 </body>
 </html>

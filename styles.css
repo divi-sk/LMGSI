@@ -1,3 +1,7 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
 h1 {
     color: blue;
     font-weight: bold;
@@ -15,10 +19,11 @@ caption {
 
 th {
     background-color: lightgreen;
-    width: 100px;
     border: 1px solid black;
     font-weight: bold;
     text-align: center;
+    padding: 30px;
+    font-size: 25px;
 }
 
 td {
@@ -26,3 +31,26 @@ td {
     padding: 5px;
     text-align: center;
 }
+
+#descans {
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.hores {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+}
+
+.LMSGI {background-color: pink;}
+.BD {background-color: beige;}
+.PED {background-color: rgb(62, 143, 116);}
+.SI {background-color: yellow;}
+.TUT {background-color: cornflowerblue;}
+.AN {background-color: rgb(203, 180, 5);}
+.DIW {background-color: orange;}
+.IPOI {background-color: red;}
