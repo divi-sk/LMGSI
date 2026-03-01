@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<botiga>
+    <!-- Llista de productes disponibles a la botiga -->
+    <productes>
+        <!-- Producte 1 -->
+        <producte codi="M001" disponibilitat="en estoc">
+            <nom>Base Huda Beauty</nom>
+            <descripcio>Base líquida de cobertura mitjana amb acabat radiant.</descripcio>
+            <preu moneda="EUR">29.99</preu>
+            <categoria>Maquillatge</categoria>
+            <imatge>https://acdn-us.mitiendanube.com/stores/001/689/323/products/img_8819-337ae53d6e1624826417262686512690-1024-1024.webp</imatge>
+        </producte>
+
+        <!-- Producte 2 -->
+        <producte codi="M002" disponibilitat="esgotat">
+            <nom>Paleta Patrick Ta</nom>
+            <descripcio>Paleta amb 12 tons neutres i acabats mates i satinats.</descripcio>
+            <preu moneda="EUR">39.99</preu>
+            <categoria>Maquillatge</categoria>
+            <imatge>https://m.media-amazon.com/images/I/61tIANBPkYL._AC_UF1000,1000_QL80_.jpg</imatge>
+        </producte>
+
+        <!-- Producte 3 -->
+        <producte codi="S001" disponibilitat="en estoc">
+            <nom>Sèrum Vitamina C Estee Lauder</nom>
+            <descripcio>Sèrum facial per iluminar i unificar el to de la pell.</descripcio>
+            <preu moneda="EUR">49.99</preu>
+            <categoria>Skincare</categoria>
+            <imatge>https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTImAemzNaAWW_O5s64_gleNq5-jR7hTUCODG-IC455y-OqdScLsnX8R4Xw4k_8yx4Rk5FthwgvyStzsKvGLe-nBsAAGslmDs3fTqz-6dhJ9EOleI31nLVURgP3pXvd4K81_3TXtIs&usqp=CAc</imatge>
+        </producte>
+
+        <!-- Producte 4 -->
+        <producte codi="S002" disponibilitat="en estoc">
+            <nom>Crema Hidratant Dia SPF 30 Clinique</nom>
+            <descripcio>Crema facial hidratant amb protecció solar SPF 30.</descripcio>
+            <preu moneda="EUR">35.99</preu>
+            <categoria>Skincare</categoria>
+            <imatge>https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRv0v1okwDIM7nKiJZSnAz_7iZ6JEXxxmuqWR5wegFa-9mmRVWNKtsDCiL97BW18nYwuaTOfmrn4FiK0ltnAiTOoVsrEvnwCjA279FrpBLwlf7YOk__2VlhI471ENH8A2Jp7pyutnU&usqp=CAc</imatge>
+        </producte>
+    </productes>
+</botiga>
