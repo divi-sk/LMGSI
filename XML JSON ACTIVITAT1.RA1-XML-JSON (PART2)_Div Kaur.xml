@@ -1,0 +1,157 @@
+  <!-- Comença XML -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+    <basic_info>
+        <name>Peter</name>
+        <surname>Jones</surname>
+        <age>19</age>
+        <height>1.78</height>
+        <job>Informàtic</job>
+        <favorite_smile>&lt;3</favorite_smile>
+
+        <pets>
+            <pet>black cat</pet>
+            <pet>chiwawa</pet>
+        </pets>
+
+        <address>
+            <street>Pau Claris</street>
+            <number>121</number>
+            <cp>08012</cp>
+        </address>
+    </basic_info>
+
+    <social_media>
+        <instagram>
+            <user>pjones22</user>
+            <email>pjones22@gmail.com</email>
+        </instagram>
+        <twitter>true</twitter>
+    </social_media>
+
+    <friends>
+        <friend>
+            <name>Jhon</name>
+            <surname>Doe</surname>
+            <age>35</age>
+        </friend>
+        <friend>
+            <name>Anna</name>
+            <surname>Smith</surname>
+            <age>0</age>
+        </friend>
+    </friends>
+</person>
+
+<!--pokemon-->
+{
+  "devices": {
+    "items_count": 4,
+    "device": [
+      {
+        "type": "computer",
+        "name": "Matebook",
+        "company": "Huawei",
+        "inches": 13,
+        "stock": true,
+        "price": {
+          "currency": "€",
+          "value": 780
+        },
+        "internal_info": "C:\\Documents\\files\\matebook.json"
+      },
+      {
+        "type": "computer",
+        "name": "Titan",
+        "company": "Slimbook",
+        "inches": 15.6,
+        "stock": true,
+        "price": {
+          "currency": "$",
+          "value": 1949
+        },
+        "slogan": [
+          "Slimbook Titan: Unleash Power in Every Pixel",
+          "Slimbook Titan: Powerhouse Performance"
+        ]
+      },
+      {
+        "type": "tablet",
+        "name": "Matepad",
+        "company": "Huawei",
+        "inches": 10.4,
+        "stock": false,
+        "price": {
+          "currency": "€",
+          "value": 0
+        },
+        "characteristics": []
+      },
+      {
+        "type": "smartphone",
+        "name": "P50 Pocket",
+        "company": "Huawei",
+        "inches": 9,
+        "stock": true,
+        "price": {
+          "currency": "€",
+          "discount": "3%",
+          "value": 999
+        },
+        "characteristics": [
+          "5000mAh battery",
+          "Super AMOLED Plus",
+          "USB-C"
+        ]
+      }
+    ]
+  },
+  "pokemons": [
+    {
+      "id": 4,
+      "nom": "Charmander",
+      "tipus": ["Foc"],
+      "pes": {"valor": 8.5, "unitat": "kg"},
+      "altura": {"valor": 60, "unitat": "cm"},
+      "estadistiques": {
+        "velocitat": 65,
+        "fortalesa": 52,
+        "precisio": 60,
+        "resistencia": 43,
+        "salto": 55,
+        "total": 275,
+        "mitjana": 55
+      },
+      "moviments": [
+        {"nom": "Arañazo", "descripcio": "Ataca al rival amb urpes afilades.", "potencia": 40, "contacte": true},
+        {"nom": "Ascuas", "descripcio": "Lanza pequeñas llamas al enemigo.", "potencia": 40, "contacte": false}
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+      "evolucions": [{"id": 5, "nivell": 16}]
+    },
+    {
+      "id": 7,
+      "nom": "Squirtle",
+      "tipus": ["Aigua"],
+      "pes": {"valor": 9.0, "unitat": "kg"},
+      "altura": {"valor": 50, "unitat": "cm"},
+      "estadistiques": {
+        "velocitat": 43,
+        "fortalesa": 48,
+        "precisio": 55,
+        "resistencia": 65,
+        "salto": 40,
+        "total": 251,
+        "mitjana": 50.2
+      },
+      "moviments": [
+        {"nom": "Placaje", "descripcio": "Embestida física contra el rival.", "potencia": 40, "contacte": true},
+        {"nom": "Pistola Agua", "descripcio": "Dispara agua a presión.", "potencia": 40, "contacte": false}
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+      "evolucions": [{"id": 8, "nivell": 16}]
+    }
+  ]
+}
